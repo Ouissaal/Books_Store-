@@ -1,0 +1,126 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{% static 'style.css' %}">
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <title>Muslim_Store</title>
+
+</head>
+<body>
+
+  <nav class="navbar bg-body-tertiary">
+  <div class="container-fluid ">
+    <a class="navbar-brand ">MUSLIM_STORE</a>
+    <form class="d-flex" role="search">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<img src="{% static 'imgs/bg_of_web.jpg'%}" alt="" style="width: 1500px; height: 800px;" class="img p-4 m-3">
+
+
+
+
+<div class="container">
+<div class="row">
+<div class="card productcard m-3" style="width: 18rem;">
+  <img src="{% static 'imgs/book2.jpg'%}" class="card-img-top" alt="..." style="height: 360px; ">
+  <div class="card-body">
+    <h5 class="card-title"> لِأنكَ اللهُ </h5>
+    <p class="card-text">.سيعرفك هذا الكتاب على من أنت بدونه؛ لا شيء ، نعمه علينا لا تعد ولا تحصى ونحن ما زلنا غافلين.</p>
+   <br>
+<a href="{% url 'details' %}" class="btn btn-outline-success">More info </a>
+  </div>
+</div>
+
+<div class="card  m-3" style="width: 18rem;">
+  <img src="{% static 'imgs/book3.jpg'%}" class="card-img-top" alt="..."style="height: 360px; ">
+  <div class="card-body">
+    <h5 class="card-title">رسائل من القرآن</h5>
+    <p class="card-text">.كتاب رقيق يقصد بث الرسائل الإيجابية الملهمة من كتاب الله عز وجل،في كل صفحة رسالة منفردة.</p>
+   <br>
+<a href="{% url 'details' %}" class="btn btn-outline-success">More info </a>
+  </div>
+</div>
+<div class="card m-3" style="width: 18rem;">
+  <img src="{% static 'imgs/book4.jpg'%}" class="card-img-top" alt="..."style="height: 360px; ">
+  <div class="card-body">
+    <h5 class="card-title">كُونِي صَحَابِية</h5>
+    <p class="card-text">.هذا الكتاب هو رحلة نحو معرفة الأخلاق والضوابط الصحيحة في الإسلام لكل فتاة في سن المراهقة والشباب </p>
+   <a href="{% url 'details' %}" class="btn btn-outline-success">More info </a>
+  </div>
+</div>
+<div class="card m-3" style="width: 18rem;">
+  <img src="{% static 'imgs/book5.webp'%}" class="card-img-top" alt="..." style="height: 350px; ">
+  <div class="card-body">
+    <h5 class="card-title">!!فاتتني صلاة </h5>
+    <p class="card-text">.يتناول الكتاب كل الأفكار و الأعذار و الخواطر التي تختبيء داخل عقلك حول الصلاة .يمليها عليك كأنه أنت .. كأنه يعرفك منذ زمن </p>
+    
+<a href="{% url 'details' %}" class="btn btn-outline-success">More info </a>
+  </div>
+</div>
+
+
+<div class="card m-3" style="width: 18rem;">
+  <img src="{% static 'imgs/book7.jpg'%}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">هوَ عِصمَةُ أمرِي</h5>
+    <p class="card-text">يتناول هذا الكتاب مجموعة مواضيع مهمة في التنمية الذاتية والأسرة, من جوانب معرفية وخبرات طرحتها المؤلفة على شكل محاضرات تفاعلية مكتوبة لتكون أقرب للمتلقي وبعيدة عن النمط الدارج لكتب التنمية.</p>
+    
+<a href="{% url 'details' %}" class="btn btn-outline-success">More info </a>
+  </div>
+</div>
+
+<div class="card m-3" style="width: 18rem;">
+  <img src="{% static 'imgs/book6.jpg'%}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">بُيُوت مُنَوَّرَة  </h5>
+    <p class="card-text">إنَّ دفْءَ الكلماتِ يَبعثُ في البيوتِ نورًا على نورِ المودّةِ والرحمة، وهذا ما سيلمَسُه مَن تلمَّسه بين دفَّتَيْ هذا السِّفْرِ النَّفيسِ المتضمِّن ستًّا وعشرينَ مقالةً منتقاةً بعنايةٍ فائقةٍ تنير الحياة الزّوجيّة، وتسلُكُ بالبيوت المنوَّرة مسلكَ السعادةِ الأُسريَّة.</p>
+     
+<a href="{% url 'details' %}" class="btn btn-outline-success">More info </a>
+  </div>
+</div>
+<div class="card m-3" style="width: 18rem;">
+  <img src="{% static 'imgs/book8.png'%}" class="card-img-top" alt="..." style="height: 380px;">
+  <div class="card-body">
+
+<h5>تنزيل القرآن عن دعاوى المبطلين :</h5>
+    <p class="card-text">تحتوي هذه الرسالة على عدة مسائل منها: - منهج المبطلين في إثارة الأباطيل عن القرآن. - الجمع الكتابي للقرآن الكريم. ..</p>
+     <br>
+     <br>
+<a href="{% url 'details' %}" class="btn btn-outline-success">More info </a>
+  </div>
+</div>
+<div class="card m-3 " style="width: 18rem;">
+  <img src="{% static 'imgs/bookO.jpg'%}" class="card-img-top" alt="..."style="height: 380px;">
+  <div class="card-body">
+    <h5 class="card-title">جلسات نفسية :</h5>
+    <p class="card-text">كتاب خفيف يتكلم من وجهة نظر الطب النفسي عن المتاعب النفسية التى تُنغِّص حياتنا وتجعلنا لا نشعر بالراحة مهما حققنا من إنجازات، فيناقش الأسباب والمرجعيات النفسية التى بُنِيت عليها بعض أفكارنا</p>
+    
+<a href="{% url 'details' %}" class="btn btn-outline-success">More info </a>
+  </div>
+</div>
+</div>
+</div>
+
+<footer>
+<div class="card text-center ">
+  <div class="card-header ">
+    @__Muslim's__Books
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">All rights reserved</h5>
+    <p class="card-text">We appreciate your visite to our project.</p>
+    <a href="#" class="btn btn-secondary"> Payment</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+    2 days ago
+  </div>
+</div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+img{
+padding: 10px;
+}
+
+.container{
+background-color: rgba(54, 15, 15, 0.455);
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+margin: 70px;
+
+}
+h5{
+text-align: center;
+}
+.btn{
+margin-left: 100px;
+}
+
